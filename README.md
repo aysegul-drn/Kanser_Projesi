@@ -1,4 +1,4 @@
-🔬 DermAI: Kaggle HAM10000 Tabanlı Akıllı Cilt Analiz Sistemi
+# 🔬 DermAI: Kaggle HAM10000 Tabanlı Akıllı Cilt Analiz 
 🎯 Proje Hakkında
 Bu çalışma, Bartın Üniversitesi Yapay Zeka Operatörlüğü bölümü kapsamında geliştirilmiş bir erken teşhis asistanıdır. DermAI, cilt kanseri teşhisinde kullanılan klinik protokolleri (ABCDE kriterleri ve Fitzpatrick ölçeği) makine öğrenmesi mantığıyla harmanlayarak kullanıcıya kişiselleştirilmiş bir risk raporu sunar.
 
@@ -25,9 +25,6 @@ Projeyi yerel bilgisayarınızda çalıştırmak için:
 
 1. Bu depoyu klonlayın:
 
-# 🔬 DermAI: Kaggle HAM10000 Tabanlı Akıllı Cilt Analiz Sistemi
-
-## 🚀 Kurulum ve Çalıştırma
 
 Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
 
@@ -35,16 +32,11 @@ Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
 ```bash
 git clone [https://github.com/aysegul-drn/Kanser_Projesi.git](https://github.com/aysegul-drn/Kanser_Projesi.git)
 
-2. Gerekli kütüphaneleri yükleyin:
+## 🚀 Kurulum ve Çalıştırma
 
-' '''pip install -r requirements.txt''' '
-
-3. Uygulamayı başlatın:
-
-streamlit run app.py
+Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
 
 
-👩‍💻 Geliştirici
 Ayşegül - Bartın Üniversitesi
 
 Not: Bu uygulama bir eğitim projesidir ve kesin tıbbi teşhis koymaz. Sağlık sorunlarınız için mutlaka bir dermatologa danışınız.
