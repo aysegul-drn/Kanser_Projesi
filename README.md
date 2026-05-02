@@ -26,20 +26,20 @@ Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
 
 1. **Depoyu Klonlayın:**
 
-````bash````
+```bash
 git clone https://github.com/aysegul-drn/Kanser_Projesi.git
-```` ``` ````
+``` 
 
 3. **Gerekli Kütüphaneleri Yükleyin:**
 
-````bash````
-pip install -r requirements.txt
-```` ``` ````
+```bash
+pip install -r requirements.txt 
+``` 
 
 4. **Uygulamayı Başlatın:**
 
-````bash````
+```bash
 streamlit run app.py
-```` ``` ````
+``` 
 
 
