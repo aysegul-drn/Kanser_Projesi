@@ -29,7 +29,7 @@ git clone https://github.com/aysegul-drn/Kanser_Projesi.git
 
 2. Gerekli kütüphaneleri yükleyin:
 
-pip install -r requirements.txt
+' '''pip install -r requirements.txt''' '
 
 3. Uygulamayı başlatın:
 
