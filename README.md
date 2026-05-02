@@ -25,19 +25,21 @@ Vaka Sayısı: 10,015 adet dermoskopik görüntü referans alınmıştır.
 Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
 
 1. **Depoyu Klonlayın:**
-\`\`\`bash
+
+````bash````
 git clone https://github.com/aysegul-drn/Kanser_Projesi.git
-\`\`\`
+```` ``` ````
 
-2. **Gerekli Kütüphaneleri Yükleyin:**
-\`\`\`bash
+3. **Gerekli Kütüphaneleri Yükleyin:**
+
+````bash````
 pip install -r requirements.txt
-\`\`\`
+```` ``` ````
 
-3. **Uygulamayı Başlatın:**
-\`\`\`bash
+4. **Uygulamayı Başlatın:**
+
+````bash````
 streamlit run app.py
-\`\`\`
-
+```` ``` ````
 
 
