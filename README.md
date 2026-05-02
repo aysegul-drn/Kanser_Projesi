@@ -20,21 +20,24 @@ Kaynak: Kaggle / HAM10000 Analysis.
 
 Vaka Sayısı: 10,015 adet dermoskopik görüntü referans alınmıştır.
 
-🛠️ Kurulum
-Projeyi yerel bilgisayarınızda çalıştırmak için:
-
-1. Bu depoyu klonlayın:
-
+### 🛠️ Kurulum ve Çalıştırma
 
 Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
 
 1. **Depoyu Klonlayın:**
-```bash
+\`\`\`bash
 git clone https://github.com/aysegul-drn/Kanser_Projesi.git
+\`\`\`
 
-2.Gerekli kütüphaneleri yükleyin:
- pip install -r requirements.txt
+2. **Gerekli Kütüphaneleri Yükleyin:**
+\`\`\`bash
+pip install -r requirements.txt
+\`\`\`
 
-3.Gerekli kütüphaneleri yükleyin: 
+3. **Uygulamayı Başlatın:**
+\`\`\`bash
 streamlit run app.py
+\`\`\`
+
+
 
