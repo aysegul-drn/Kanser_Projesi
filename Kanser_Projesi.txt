@@ -1,0 +1,40 @@
+import streamlit as st
+import time # Bekleme efekti için
+
+# 1. Sayfa Başlığı ve Açıklama
+st.title("🩺 Akıllı Kanser Risk Analizi Asistanı")
+st.write("Lütfen aşağıdaki bilgileri doldurarak risk analizinizi başlatın. Unutmayın, bu sadece yapay zeka destekli bir tahmindir ve doktor tavsiyesi yerine geçmez.")
+
+# 2. Kullanıcıdan Veri Alma (Semptomlar veya Değerler)
+st.subheader("Kişisel Bilgiler ve Semptomlar")
+yas = st.slider("Yaşınız", 18, 100, 30) # Minimum 18, maksimum 100, varsayılan 30
+sigara = st.selectbox("Sigara kullanıyor musunuz?", ["Evet", "Hayır"])
+agri_seviyesi = st.slider("Son 1 ay içindeki genel ağrı seviyeniz (1-10)", 1, 10, 1)
+
+# 3. Analiz Butonu ve Sonuç Ekranı
+if st.button("Analizi Başlat"):
+    # Butona basıldığında buradaki kodlar çalışır
+    
+    # Gerçekçi bir his vermek için yükleniyor animasyonu
+    with st.spinner('Yapay Zeka verilerinizi analiz ediyor... Lütfen bekleyin.'):
+        time.sleep(2) # 2 saniye bekletme
+    
+    # BURAYA GERÇEK MAKİNE ÖĞRENMESİ MODELİNİ BAĞLAYACAĞIZ
+    # Şimdilik örnek bir sonuç gösterelim:
+    risk_yuzdesi = 65 
+    
+    # 4. Sonuçları Kullanıcı Deneyimi (UX) Odaklı Gösterme
+    st.subheader("📊 Analiz Sonucu")
+    st.progress(risk_yuzdesi) # İlerleme çubuğu
+    
+    if risk_yuzdesi > 50:
+        st.error(f"Dikkat! Risk oranınız: %{risk_yuzdesi}")
+        st.write("**Olası Nedenler:** Sigara kullanımı ve yüksek ağrı şikayeti model tarafından riskli bulunmuştur.")
+        
+        # Ekstra Puan Getirecek Detay: Harita veya Yönlendirme
+        st.warning("Lütfen en yakın sağlık kuruluşuna başvurunuz. Erken teşhis hayat kurtarır.")
+        st.info("📍 Sana en yakın hastaneleri bulmak için [Buraya Tıkla](https://www.google.com/maps/search/hastane)")
+        
+    else:
+        st.success(f"Harika! Risk oranınız düşük: %{risk_yuzdesi}")
+        st.write("Sağlıklı yaşamaya devam edin.")
