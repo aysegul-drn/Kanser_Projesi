@@ -25,7 +25,15 @@ Projeyi yerel bilgisayarınızda çalıştırmak için:
 
 1. Bu depoyu klonlayın:
 
-git clone https://github.com/aysegul-drn/Kanser_Projesi.git
+# 🔬 DermAI: Kaggle HAM10000 Tabanlı Akıllı Cilt Analiz Sistemi
+
+## 🚀 Kurulum ve Çalıştırma
+
+Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
+
+1. **Depoyu Klonlayın:**
+```bash
+git clone [https://github.com/aysegul-drn/Kanser_Projesi.git](https://github.com/aysegul-drn/Kanser_Projesi.git)
 
 2. Gerekli kütüphaneleri yükleyin:
 
