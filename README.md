@@ -42,4 +42,9 @@ pip install -r requirements.txt
 streamlit run app.py
 ``` 
 
+Hazırlayan: Ayşegül Duran
+
+Öğrenci No: 25019921045
+
+Bölüm: Bartın Üniversitesi - Yapay Zeka Operatörlüğü
 
