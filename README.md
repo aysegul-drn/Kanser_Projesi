@@ -30,13 +30,11 @@ Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
 
 1. **Depoyu Klonlayın:**
 ```bash
-git clone [https://github.com/aysegul-drn/Kanser_Projesi.git](https://github.com/aysegul-drn/Kanser_Projesi.git)
+git clone https://github.com/aysegul-drn/Kanser_Projesi.git
 
-## 🚀 Kurulum ve Çalıştırma
+2.Gerekli kütüphaneleri yükleyin:
+ pip install -r requirements.txt
 
-Projeyi yerel bilgisayarınızda çalıştırmak için şu adımları izleyin:
+3.Gerekli kütüphaneleri yükleyin: 
+streamlit run app.py
 
-
-Ayşegül - Bartın Üniversitesi
-
-Not: Bu uygulama bir eğitim projesidir ve kesin tıbbi teşhis koymaz. Sağlık sorunlarınız için mutlaka bir dermatologa danışınız.
