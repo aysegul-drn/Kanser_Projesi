@@ -48,3 +48,5 @@ Hazırlayan: Ayşegül Duran
 
 Bölüm: Bartın Üniversitesi - Yapay Zeka Operatörlüğü
 
+
+Bilgisayarda açmak için bu linki chromda bu kodu yapıştırarak ulaşabilirsiniz.(http://localhost:8501/)
