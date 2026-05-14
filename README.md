@@ -1,3 +1,5 @@
+
+
 # 🔬 DermAI: Kaggle HAM10000 Tabanlı Akıllı Cilt Analiz 
 🎯 Proje Hakkında
 Bu çalışma, Bartın Üniversitesi Yapay Zeka Operatörlüğü bölümü kapsamında geliştirilmiş bir erken teşhis asistanıdır. DermAI, cilt kanseri teşhisinde kullanılan klinik protokolleri (ABCDE kriterleri ve Fitzpatrick ölçeği) makine öğrenmesi mantığıyla harmanlayarak kullanıcıya kişiselleştirilmiş bir risk raporu sunar.
